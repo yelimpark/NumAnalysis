@@ -19,3 +19,9 @@ program bisection
 
 	write(*,*)"The root is",root
 end program
+
+double precision function f(x)
+	implicit none
+	double precision::x
+	f=x**3 -cos(x)
+end function f
