@@ -8,7 +8,7 @@ program newton
    call Newton_Raphson(f, f_prime, start, error, root)
    
    f_val = f(root)
-   PRINT '(2(A,E15.6))',"A root was found at x =", root
+   PRINT '(2(A,E15.6))',"x =", root
 end program Newton
 
 SUBROUTINE Newton_Raphson(f, f_prime, start, error, root)
