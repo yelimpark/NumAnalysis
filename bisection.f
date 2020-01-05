@@ -17,7 +17,7 @@ program bisection
 
 	if (abs(x2-x1) > error) goto 10
 
-	write(*,*)"The root is",root
+	write(*,*)"x = ",root
 end program
 
 double precision function f(x)
